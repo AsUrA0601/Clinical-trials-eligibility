@@ -41,19 +41,16 @@ Produces Excel/JSON files with:
 
 ## Setup & Usage
 
-1.Install dependencies:
-- bash
-  pip install pandas requests openai openpyxl
+1.Install dependencies: (bash)
+- pip install pandas requests openai openpyxl
 
-2.Set OpenAI API key:
-- python
-  os.environ["OPENAI_API_KEY"] = "your-key-here" 
+2.Set OpenAI API key: (python)
+- os.environ["OPENAI_API_KEY"] = "your-key-here" 
 
-3.Run matching:
-- python
-  matcher.run_matching(
-      input_xml="patient_data.xml",
-      output_file="matches.xlsx"
+3.Run matching: (python)
+- matcher.run_matching(
+    input_xml="patient_data.xml",
+    output_file="matches.xlsx"
   )
 
 ## Input Requirements
