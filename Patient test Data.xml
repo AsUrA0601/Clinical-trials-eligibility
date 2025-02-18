@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patients>
+  <!-- Patient 1: Middle-aged diabetic patient with comorbidities -->
+  <Patient>
+    <ID>PT-1001</ID>
+    <Demographics>
+      <DOB>1985-03-15</DOB>
+      <Gender>Female</Gender>
+      <Ethnicity>Hispanic</Ethnicity>
+    </Demographics>
+    <MedicalConditions>
+      <PrimaryDiagnosis>
+        <Condition>Type 2 Diabetes Mellitus</Condition>
+        <DiagnosisDate>2020-05-12</DiagnosisDate>
+      </PrimaryDiagnosis>
+      <Comorbidities>
+        <Condition>Hypertension</Condition>
+        <Condition>Hyperlipidemia</Condition>
+      </Comorbidities>
+    </MedicalConditions>
+    <Treatments>
+      <CurrentMedications>
+        <Drug>
+          <Name>Metformin</Name>
+          <Dosage>500 mg</Dosage>
+          <Frequency>Twice daily</Frequency>
+        </Drug>
+      </CurrentMedications>
+    </Treatments>
+    <LabResults>
+      <Test>
+        <Name>HbA1c</Name>
+        <Value>7.2</Value>
+        <Unit>%</Unit>
+        <Date>2024-02-10</Date>
+      </Test>
+    </LabResults>
+  </Patient>
+  
+  <!-- Patient 2: Elderly patient with cardiovascular disease -->
+  <Patient>
+    <ID>PT-1002</ID>
+    <Demographics>
+      <DOB>1947-07-22</DOB>
+      <Gender>Male</Gender>
+      <Ethnicity>Caucasian</Ethnicity>
+    </Demographics>
+    <MedicalConditions>
+      <PrimaryDiagnosis>
+        <Condition>Coronary Artery Disease</Condition>
+        <DiagnosisDate>2015-09-30</DiagnosisDate>
+      </PrimaryDiagnosis>
+      <Comorbidities>
+        <Condition>Chronic Kidney Disease</Condition>
+      </Comorbidities>
+    </MedicalConditions>
+    <Treatments>
+      <CurrentMedications>
+        <Drug>
+          <Name>Aspirin</Name>
+          <Dosage>81 mg</Dosage>
+          <Frequency>Once daily</Frequency>
+        </Drug>
+      </CurrentMedications>
+    </Treatments>
+    <LabResults>
+      <Test>
+        <Name>Creatinine</Name>
+        <Value>1.8</Value>
+        <Unit>mg/dL</Unit>
+        <Date>2024-01-20</Date>
+      </Test>
+    </LabResults>
+  </Patient>
+  
+  <!-- Patient 3: Young adult with autoimmune disorder -->
+  <Patient>
+    <ID>PT-1003</ID>
+    <Demographics>
+      <DOB>1996-12-05</DOB>
+      <Gender>Non-binary</Gender>
+      <Ethnicity>Asian</Ethnicity>
+    </Demographics>
+    <MedicalConditions>
+      <PrimaryDiagnosis>
+        <Condition>Rheumatoid Arthritis</Condition>
+        <DiagnosisDate>2022-04-18</DiagnosisDate>
+      </PrimaryDiagnosis>
+    </MedicalConditions>
+    <Treatments>
+      <CurrentMedications>
+        <Drug>
+          <Name>Methotrexate</Name>
+          <Dosage>15 mg</Dosage>
+          <Frequency>Once weekly</Frequency>
+        </Drug>
+      </CurrentMedications>
+    </Treatments>
+    <LabResults>
+      <Test>
+        <Name>CRP</Name>
+        <Value>12.5</Value>
+        <Unit>mg/L</Unit>
+        <Date>2024-01-28</Date>
+      </Test>
+    </LabResults>
+  </Patient>
+
+  <!-- Patient 4: Pediatric patient with asthma -->
+  <Patient>
+    <ID>PT-1004</ID>
+    <Demographics>
+      <DOB>2015-08-10</DOB>
+      <Gender>Male</Gender>
+      <Ethnicity>African American</Ethnicity>
+    </Demographics>
+    <MedicalConditions>
+      <PrimaryDiagnosis>
+        <Condition>Asthma</Condition>
+        <DiagnosisDate>2018-06-25</DiagnosisDate>
+      </PrimaryDiagnosis>
+    </MedicalConditions>
+    <Treatments>
+      <CurrentMedications>
+        <Drug>
+          <Name>Albuterol</Name>
+          <Dosage>2 puffs</Dosage>
+          <Frequency>As needed</Frequency>
+        </Drug>
+      </CurrentMedications>
+    </Treatments>
+    <LabResults>
+      <Test>
+        <Name>Peak Flow</Name>
+        <Value>280</Value>
+        <Unit>L/min</Unit>
+        <Date>2024-01-10</Date>
+      </Test>
+    </LabResults>
+  </Patient>
+</Patients>
